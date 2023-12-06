@@ -1,0 +1,16 @@
+<!-- sessions/new.html.erb -->
+<h2>Login</h2>
+
+<%= form_with(url: sign_in_path, method: :post) do |f| %>
+  <%= f.label :email %>
+  <%= f.text_field :email %><br>
+
+  <%= f.label :password %>
+  <%= f.password_field :password %><br>
+
+  <%= f.submit "Login" %>
+<% end %>
+
+<div>
+  <%= link_to "Sign up", new_user_path %>
+</div>

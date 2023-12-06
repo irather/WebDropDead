@@ -1,0 +1,21 @@
+<!-- app/views/users/play_game.html.erb -->
+
+<h2>Play Game</h2>
+
+<%= form_tag play_game_path, method: :post do %>
+  <!-- your form fields for num_players, num_die_sides, num_dice -->
+  <%= label_tag :num_players, 'Number of Players' %>
+  <%= number_field_tag :num_players %>
+
+  <%= label_tag :num_die_sides, 'Number of Die Sides' %>
+  <%= number_field_tag :num_die_sides %>
+
+  <%= label_tag :num_dice, 'Number of Dice' %>
+  <%= number_field_tag :num_dice %>
+
+  <%= submit_tag 'Play New Game' %>
+<% end %>
+
+
+<%= link_to 'Go Back', user_path(current_user) %>
+

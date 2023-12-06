@@ -1,0 +1,11 @@
+current directory: /home/undergrad/1/irather/CIS3260/dropdead/dropdead/vendor/bundle/ruby/2.5.0/gems/io-wait-0.3.0/ext/io/wait
+/usr/bin/ruby2.5 -r ./siteconf20231110-26116-180hpdx.rb extconf.rb
+
+current directory: /home/undergrad/1/irather/CIS3260/dropdead/dropdead/vendor/bundle/ruby/2.5.0/gems/io-wait-0.3.0/ext/io/wait
+make "DESTDIR=" clean
+
+current directory: /home/undergrad/1/irather/CIS3260/dropdead/dropdead/vendor/bundle/ruby/2.5.0/gems/io-wait-0.3.0/ext/io/wait
+make "DESTDIR="
+
+current directory: /home/undergrad/1/irather/CIS3260/dropdead/dropdead/vendor/bundle/ruby/2.5.0/gems/io-wait-0.3.0/ext/io/wait
+make "DESTDIR=" install

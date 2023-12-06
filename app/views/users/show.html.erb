@@ -1,0 +1,12 @@
+<!-- User Page -->
+<h1>Welcome, <%= @user.username %></h1>
+
+<h2>User Details</h2>
+<!-- Add any user details you want to display -->
+
+<!-- Buttons for Play New Game, View Game History, and Exit -->
+<%= link_to 'Play New Game', play_game_path %><br>
+<%= link_to 'View Game History', game_history_path %><br>
+<%= link_to 'Exit', exit_game_path %>
+
+<!-- <%= link_to "Sign-Out", logout_path, method: :delete %> -->
